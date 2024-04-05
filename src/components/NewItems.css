@@ -14,7 +14,7 @@ article {
   margin-right: 150px;
   margin-bottom: 30px;
   width: 300px;
-  height: 550px; /* Set a fixed height for all cards */
+  height: 550px; 
 }
  
   article a::after {
@@ -25,7 +25,6 @@ article {
     content: "";
   }
   
-  /* basic article elements styling */
   article h2 {
     margin: 0 0 18px 0;
     font-family: 'Lato', sans-serif;
@@ -75,7 +74,6 @@ article {
     transition: all 0.3s;
   }
   
-  /* using the has() relational pseudo selector to update our custom properties */
   article:has(:hover, :focus) {
     --img-scale: 1.1;
     --title-color: #28666e;
