@@ -1,5 +1,5 @@
 export const card = {
-  borderRadius: "50px",
+  borderRadius: "50%",
   backgroundColor: "rgb(41, 47, 51)",
   color: "#fff",
   margin: "10px"

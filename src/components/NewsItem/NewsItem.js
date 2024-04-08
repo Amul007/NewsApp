@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
 import Details from "./Details/Details";
-
+import './style.css';
 function NewsItem(props) {
   const { imageUrl, alt, description, title, channel, published, urlNews } = props;
 

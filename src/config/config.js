@@ -1,6 +1,6 @@
 import moment from "moment";
 
-export const navbarBrand = "Your News";
+export const navbarBrand = "Newsify";
 export const header = (category) => `News - Top ${category} Headlines`;
 export const noFound = "No Results Found";
 export const searching = "Searching...";

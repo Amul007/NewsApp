@@ -1,8 +1,33 @@
-.card:hover{
-    transform: scale(1.05);
-    transition: transform 300ms ease;
-}
-.card{
+.news-card {
+    display: flex;
+    flex-direction: column;
+    height: 90%; 
+  }
+  
+  .card {
+    flex: 1; 
     transition: transform 300ms ease;
     margin: 10px;
-}
+    border-radius: 10px;
+    overflow: hidden; 
+    margin-bottom: 50px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-text {
+    flex: 1; /* Allow text to grow to fill the available space */
+  }
+  
+  .image-container {
+    flex-shrink: 0; /* Don't allow the image container to shrink */
+  }
+  

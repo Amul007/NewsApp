@@ -12,14 +12,14 @@ function NavBar() {
   };
 
   return (
-    <>
+    <> 
       <Navbar
         style={navBar}
         variant="dark"
         expand="lg"
         fixed="top"
         expanded={!isCollapsed}
-      >
+      > 
         <Navbar.Brand style={navBrand} href="/">
           {navbarBrand}
         </Navbar.Brand>
